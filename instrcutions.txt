@@ -1,0 +1,26 @@
+# Some Symbols used here are just to instruct, use /help for actual command structure.
+# Read the full text all instructions are important
+
+Bot defaults:
+- bass = 0 and treble = 0
+
+Playing songs:
+- /play <name or url or index>
+- /add <name or url> for adding more
+- /next to play next
+- To exit bot use /leave
+- If url is a playlist all songs will be added to queue
+- /leave will make bot leave channel and clear all resources
+- To launch new discord activities use /partytogether and select an option
+- other commands are self explainatory
+
+Playing songs with bass and treble:
+- once bass or treble are set, it changes the whole queue`s bass and treble and the songs which are further added.
+- bass and treble are reset once bot leaves the channel or can be reset by making it zero.
+
+Warnings:
+- Due to unavailability of spotify premium, if spotify link is provided, it gets the data of the songs
+  and searches in youtube and adds to queue
+- In case wrong songs are put in queue find correct song from youtube and add using /add <url>
+
+Have a nice time playing songs! 🤝
